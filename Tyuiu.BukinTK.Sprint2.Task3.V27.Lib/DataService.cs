@@ -9,7 +9,7 @@ namespace Tyuiu.BukinTK.Sprint2.Task3.V27.Lib
             double y;
             if (x > 0)
             {
-                y = x * 5.680452256 *  Math.Pow((x + 1) / (Math.Sin(Math.Pow(x, 2)) + x - 0.5), x);
+                y = x *  Math.Pow((x + 1) / (Math.Sin(Math.Pow(x, 2)) + x - 0.5), x);
             }
             else if (x == 0)
             {
