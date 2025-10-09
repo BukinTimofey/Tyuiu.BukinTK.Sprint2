@@ -12,7 +12,7 @@ namespace Tyuiu.BukinTK.Sprint2.Task2.V16.Lib
             {
                 return true;
             }
-            else if (x >= y && x >= 16 - y)
+            else if (x >= y && y <= 16 - x)
             {
                 return true;
             }
